@@ -210,6 +210,7 @@ class HTTPResponse(Packet):
                 StrField("Content-MD5", None, fmt="H"),
                 StrField("Content-Range", None, fmt="H"),
                 StrField("Content-Type", None, fmt="H"),
+                StrField("Cookie", None, fmt="H"),
                 StrField("Expires", None, fmt="H"),
                 StrField("Last-Modified", None, fmt="H"),
                 StrField("Headers", None, fmt="H"),
